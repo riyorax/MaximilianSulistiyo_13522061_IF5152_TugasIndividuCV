@@ -1,0 +1,12 @@
+# Harris Corner Statistics
+block_size        : 7
+ksize             : 7
+k                 : 0.04
+threshold_frac    : 0.01
+num_corners       : 77889
+R_mean            : 187324792832.000000
+R_std             : 225254244352.000000
+R_min             : 16758094848.000000
+R_median          : 89145933824.000000
+R_p90             : 501326282752.000000
+R_max             : 1675748704256.000000

@@ -1,0 +1,61 @@
+# Python Virtual Environment Setup Guide
+
+## Prerequisites
+
+- Python 3.8 or higher installed on your system
+- Command line access (Terminal, PowerShell, or Command Prompt)
+
+
+
+## Step-by-Step Setup
+
+### 1. Create Virtual Environment
+
+A virtual environment isolates your project dependencies from your system Python installation.
+
+**macOS / Linux:**
+```bash
+python3 -m venv .venv
+```
+
+**Windows:**
+```powershell
+python -m venv .venv
+```
+
+### 2. Activate Virtual Environment
+
+**macOS / Linux (bash/zsh):**
+```bash
+source .venv/bin/activate
+```
+
+**Windows (PowerShell):**
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+**Windows (Command Prompt):**
+```cmd
+.venv\Scripts\activate.bat
+```
+
+**Success indicator:** You should see `(.venv)` at the start of your command prompt.
+
+### 3. Install Project Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Verify Installation
+
+Check that everything is installed correctly:
+
+```bash
+python --version
+pip --version
+pip list
+```
+
+---
